@@ -1,0 +1,35 @@
+body{
+    background-image: url(https://images.pexels.com/photos/1208777/pexels-photo-1208777.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navi a {
+     text-align: center;
+     font-size: 30px;
+     font-family:'times new roman';
+    
+  }
+#mainNavBar a{
+    text-align: center;
+    font-size: 17px;
+}
+.para{
+    font: italic 70px 'Creepster',Cursive;
+    color:black;
+   
+    text-shadow: rgba(255,0,0,1)2px 2px 9px;
+}
+@media only screen and (max-width:812px){
+    body{
+        background-image: url(https://images.pexels.com/photos/1208777/pexels-photo-1208777.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .para{
+        
+        font: italic 40px 'Creepster',Cursive;
+        color:black;
+        text-shadow: rgba(255,0,0,1)2px 2px 9px;
+    }
+}

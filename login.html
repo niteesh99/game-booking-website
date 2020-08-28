@@ -1,0 +1,77 @@
+<html>
+    <head>
+            <meta charset="utf-8">
+            <link href="https://fonts.googleapis.com/css?family=Alegreya+SC|Acme|Alegreya+Sans+SC|Almendra+SC|Akronim|Amarante|Astloch|Cinzel|Bungee+Shade|Charmonman|Lemon&display|Clicker+Script|Croissant+One|Fondamento|Fontdiner+Swanky|Roboto+Slab|Faster+One|Saira+Semi+Condensed&display=swap" rel="stylesheet">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+            
+        <link rel="stylesheet" href="log.css">
+        <script>
+                function myFunction() {
+                  var x = document.getElementById("snackbar");
+                  x.className = "show";
+                  setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+                }
+                </script>
+    </head>
+    <body>
+            <nav class="navbar navbar-inverse">
+                    <div class="container-fluid">
+                        
+                        <button type="button"class="navbar-toggle" data-toggle="collapse"data-target=#mainNavBar>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+            
+                        <div class="navi navbar-header">
+                            <a href="https://killeradventures.000webhostapp.com/index.html" class="navbar-brand" >Killer Adventures</a>
+                        </div>
+                       
+                        <div class="collapse navbar-collapse" id="mainNavBar">
+                            <ul class="nav navbar-nav">
+                                    <li ><a href="https://killeradventures.000webhostapp.com/home.html">Home</a></li>
+                                    <li class="dropdown">
+                                            <a href="#" class="dropdowm-toggle" data-toggle="dropdown">Things To Do<span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                    <li><a href="https://killeradventures.000webhostapp.com/land.html">Land-venture</a></li>
+                                                    <li><a href="https://killeradventures.000webhostapp.com/water.html">Water-venture</a></li>
+                                            </ul>
+                                    </li>
+                                    <li><a href="https://killeradventures.000webhostapp.com/terms.html">Terms and Conditions</a></li>
+                                    <li><a href="https://killeradventures.000webhostapp.com/about.html">About</a></li>
+                                    <li><a href="https://killeradventures.000webhostapp.com/contact.html">Contact Us</a></li>
+                                    <li class="active"><a href="https://killeradventures.000webhostapp.com/book.html">Book Now</a></li>
+            
+                                    
+                                    
+                            </ul>
+                            
+                        </div>
+                        
+                    </div>
+                    </nav>
+           
+        <div class="container-fluid">
+            <section class="box" style="background-color: aquamarine">                    
+                     <h1 class="heading">Booking Details</h1>
+                      <br>
+                      <label class="username">Name:<br><input type="text" id="name" ></label><br><br>
+                      <label  class="username">Email:<br><input type="text" id="mail" ></label><br><br>
+                    <label class="username">Phonenumber:<br><input type="text" id="number" ></label><br><br>
+                   
+                   
+                            <input type="button" value="Submit" id="submit" onClick="myFunction()">
+                            
+
+                            <div id="snackbar">Booking Confirmed!</div>
+                            
+                    
+        </div>
+            </section>
+        
+        </div>
+    </body>
+</html>

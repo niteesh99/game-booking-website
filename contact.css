@@ -1,0 +1,89 @@
+body{
+    background-image: url("https://images.pexels.com/photos/1028600/pexels-photo-1028600.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.one{
+    text-align: center;
+    font-size:60px;
+    font-family:  'Berkshire Swash' ,cursive;
+    color: black;
+}
+.box{
+    
+    border: 6px solid lightslategrey;
+    margin: 35px;
+    padding: 35px;
+}
+.text{
+    color:lightcoral;
+    font: italic 30px 'Eagle Lake',cursive;
+}
+.two{
+    font-size: 25px;
+    font-family: Courgette;
+    color:aqua;
+    text-align: center;
+}
+.phone{
+   font-size: 25px;
+    color: aqua;
+    font-family: Courgette;
+    text-align:center;
+}
+.mail{
+    color: aqua;
+    font-size: 25px;
+    font-family: Courgette;
+    text-align: center;
+}
+.navi a {
+    text-align: center;
+    font-size: 30px;
+    font-family:'times new roman';
+ }
+#mainNavBar a{
+   text-align: center;
+   font-size: 17px;
+}
+@media only screen and (max-width:812px){
+    body{
+        background-image: url("https://images.pexels.com/photos/1028600/pexels-photo-1028600.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .one{
+        text-align: center;
+        font-size:30px;
+        font-family:  'Berkshire Swash' ,cursive;
+        color: black;
+    }
+    .box{
+        
+        border: 6px solid lightslategrey;
+        margin: 35px;
+        padding: 35px;
+    }
+    .text{
+        color:lightcoral;
+        font: italic 20px 'Eagle Lake',cursive;
+    }
+    .two{
+        font-size: 15px;
+        font-family: Courgette;
+        color:aqua;
+        text-align: center;
+    }
+    .phone{
+       font-size: 15px;
+        color: aqua;
+        font-family: Courgette;
+        text-align:center;
+    }
+    .mail{
+        color: aqua;
+        font-size: 13px;
+        font-family: Courgette;
+        text-align: center;
+    }
+}

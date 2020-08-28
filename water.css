@@ -1,0 +1,137 @@
+.navi a {
+  text-align: center;
+  font-size: 30px;
+  font-family:'times new roman';
+
+}
+#mainNavBar a{
+ text-align: center;
+ font-size: 17px;
+}
+.flip-box {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-box-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-box-back {
+    background-color:lightseagreen;
+    color: black ;
+    transition: .5s ease;
+    transform: rotateY(180deg);
+  }
+  .carousel-caption{
+    
+      font: bold 55px 'Black Ops One',cursive;
+      transform: translate(2%,-30%);
+      top:82%;
+      left:10%;
+    }
+.carousel-inner{
+  width:fit-content;
+  height:97%;
+  display:block;                    
+}
+  .three{
+  
+    transform: translate(30%,50%);
+  }
+  .two{
+    transform: translate(10%,50%);
+  }
+.add{
+      text-align: center;
+      font: 30px 'Chau Philomene One', sans-serif;
+  }
+ .content{
+    font: 20px 'Charm', cursive;
+    transform: translate(-50%,-50%);
+    left:50%;
+    position: absolute;
+ }
+ .title{
+     position: absolute;
+     top: 88%;
+     left: 54%;
+     font: bold 21px 'Muli',sans-serif;
+     transform:translate(-50%,-50%);
+     color:black;
+     }
+     .link{
+       color:blue;
+       font-size: 17px;
+     }
+.inside{
+    font: bold 15px 'Muli',sans-serif;
+}
+@media only screen and (max-width: 812px){
+  .carousel-caption{
+    
+    font: bold 25px 'Black Ops One',cursive;
+    transform: translate(2%,-30%);
+    top:62%;
+    left:10%;
+  }
+.carousel-inner{
+  width:fit-content;
+  height:30%;
+  display:block;                    
+}
+ .one{
+    transform: translate(2%,-30%);
+    top:62%;
+    left:10%;
+  }
+  .two{
+    transform: translate(2%,-30%);
+    top:62%;
+    left:10%;
+  }
+  .three{
+    transform: translate(2%,-30%);
+    top:62%;
+    left:10%;
+  }
+  
+ .content{
+    font: 20px 'Charm', cursive;
+    transform: translate(-50%,-50%);
+    left:50%;
+    top: 4%;
+    text-align: center;
+    position: relative;
+ }
+  
+}

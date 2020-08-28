@@ -1,0 +1,64 @@
+.navi a {
+    text-align: center;
+    font-size: 30px;
+    font-family:'times new roman';
+   
+ }
+#mainNavBar a{
+   text-align: center;
+   font-size: 17px;
+}
+body{
+    background-color: white;
+}
+.one{
+    text-align: center;
+    font: bold 80px 'Montez',cursive;
+    text-shadow: rgb(73, 185, 250)3px 2px 2px;
+    color: bl;
+}
+.box{
+    border-radius: 5px;
+    border: 3px solid black;
+    margin: 35px;
+    
+}
+.panel-head{
+    background-color: cyan;
+    padding: 5px;
+}
+.title{
+
+    font:bold 25px 'Kaushan Script',cursive;
+    color: rgb(5, 46, 134);
+}
+.table{
+    background-color: rgb(187, 248, 248);
+    border-radius: 5px;
+}
+.btn{
+    padding-right: 15px;
+    background-color: cyan;
+    color: black;
+    font: bold 18px 'times new roman';
+}
+.col{
+    font:bold 18px Lemon;
+    color: rgb(73, 150, 250);
+}
+.headd{
+    background-color: cyan;
+    color: rgb(5, 46, 134);
+
+}
+input[type=date]{
+   height: 25px;
+
+}
+@media only screen and (max-width:812px){
+    .col{
+        font:bold 10px Lemon;
+        color: rgb(73, 150, 250);
+    }
+    
+}

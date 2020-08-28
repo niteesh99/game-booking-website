@@ -1,0 +1,86 @@
+
+body{
+    
+    background-image: url(https://images.pexels.com/photos/1655037/pexels-photo-1655037.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.head{
+    text-align: center;
+    color: black;
+    font:bold 120px 'Montez', cursive;
+    text-shadow :rgba(100,255,0,1)3px 3px 5px ;
+    opacity: 1;
+}
+.tail{
+    text-align: center;
+    color:black;
+    font: bold 45px 'Jim Nightshade', cursive;
+    text-shadow :rgb(255, 104, 4)1px 1px 1px ;
+    
+    }
+.img{   
+    position: relative;
+    top: 25%;
+    left: 42%;
+
+   }
+    
+.container .btn:hover {
+    background-color: black;
+  }
+    .container .btn {
+        position: relative;
+        top: 55%;
+        left: 45%;
+        background-color: floralwhite;
+        color: black;
+        font: bold 20px 'viner hand ';
+        padding: 12px 24px;
+        border-radius: 40px;
+        text-align: center;
+      }
+      
+   
+@media only screen and (max-width:812px){
+    body{
+        background-image: url(https://images.pexels.com/photos/1655037/pexels-photo-1655037.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940.jpg);
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        margin-top:130px;
+    }
+    .head{
+        font:bold 60px 'Montez', cursive;
+        text-align: center;
+        color: black;
+        text-shadow :rgba(100,255,0,1)3px 3px 5px ;
+        opacity: 1;
+    }
+    .tail{
+        text-align: center;
+        color:black;
+        font: bold 35px 'Jim Nightshade', cursive;
+        text-shadow :rgb(255, 104, 4)1px 1px 1px ;
+        
+        }
+        .container .btn:hover {
+    background-color: black;
+  }
+    .container .btn {
+        position: relative;
+        top: 55%;
+        left: 35%;
+        background-color: floralwhite;
+        color: black;
+        font: bold 20px 'viner hand ';
+        padding: 12px 24px;
+        border-radius: 40px;
+        text-align: center;
+      }
+      .img{   
+        position: relative;
+        top: 25%;
+        left: 30%;
+    
+       }
+    }

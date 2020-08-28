@@ -1,0 +1,99 @@
+.navi a {
+    text-align: center;
+    font-size: 30px;
+    font-family:'times new roman';
+   
+ }
+#mainNavBar a{
+   text-align: center;
+   font-size: 17px;
+}
+.ima { 
+    width: 100%;
+    height: 400;
+  }
+.container-fluid{
+    position: relative;
+}
+.title{
+  position: absolute;
+  top: 88%;
+  font: bold 80px 'Metal Mania';
+  left: 60%;
+  transform: translate(-50%, -50%);
+  color: black;
+  text-shadow: rgb(83, 219, 29) 3px 3px 3px;
+}
+.mark{
+    color: rgb(9, 3, 100);
+    text-align: center;
+    text-shadow : rgb;
+    font: bold 50px 'Jolly Lodger', cursive;
+}
+.p1{
+    color: black;
+    padding-left:10%;
+    padding-right:10%;
+    text-align: left;
+    position: relative;
+    font: bold 18px 'Muli', sans-serif;
+}
+.p2{
+    color: black;
+    padding-left:10%;
+    padding-right:10%;
+    text-align: left;
+    font: bold 18px 'Muli', sans-serif;
+}
+.p3{
+    color: black;
+    text-align: left;
+    font: bold 18px 'Muli', sans-serif;
+    padding-left:10%;
+    padding-right:10%;
+}
+blockquote{
+    color: rgb(9, 3, 100);
+    font: bold 18px 'Iceberg',cursive;
+    
+}
+.price{ 
+    text-align: center;
+    font: bold 25px 'Berkshire Swash', cursive;
+    color: rgb(9, 3, 100);
+    text-decoration: underline;
+}
+
+span{
+    font: bold 25px 'Berkshire Swash', cursive;
+    color: rgb(9, 3, 100);
+}
+.conditions{
+    color: black;
+    text-align: center;
+    font: bold 18px 'Muli', sans-serif;
+}
+#leftbox{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    border: 3px solid black;
+
+}
+#quote{
+    color:  rgb(5, 1, 65);
+    text-align: left;
+    font: bold 18px 'Iceberg',cursive;
+    padding-left:10%;
+    padding-right:10%;
+}
+@media only screen and (max-width:812px){
+ .title{
+  position: absolute;
+  top: 88%;
+  font: bold 50px 'Metal Mania';
+  left: 60%;
+  transform: translate(-50%, -50%);
+  color: black;
+  text-shadow: rgb(83, 219, 29) 3px 3px 3px;
+}   
+}

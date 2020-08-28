@@ -1,0 +1,111 @@
+body{
+    background-image:url("https://images.pexels.com/photos/1503898/pexels-photo-1503898.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity:0.7;
+    
+}
+.navi a {
+    text-align: center;
+    font-size: 30px;
+    font-family:'times new roman';
+   
+ }
+#mainNavBar a{
+   text-align: center;
+   font-size: 17px;
+}
+.nit1{
+    font:bold 
+}
+
+.container{
+    position: relative;
+}
+#name{
+    color: cyan;
+    text-shadow: rgb(7, 7, 7)3px 3px 3px;
+    font:italic 60px 'Lemon', cursive;
+    text-align: center;
+    
+    
+}
+.display{
+    color:whitesmoke;
+    font: bold 20px 'helvetica';
+
+    
+}
+.header{
+    
+    color: aqua;
+    font-family: cursive;
+    font-size: 30px;
+
+    
+    
+}
+#nit{
+    color: brown;
+    font-family: 'Lemon', cursive;
+    
+}
+.ahaz{
+    text-align: center;
+    font: italic 40px 'segoe script';
+    color:greenyellow;
+    
+    border: 2px solid red;
+
+    
+}
+#abc{
+    color: brown;
+    font-family: 'Lemon', cursive;
+    
+
+}
+#dhan{
+    color: brown;
+    font-family: 'Lemon', cursive;
+
+}
+#abi{
+    font: bold 20px 'forta';
+    color: white;
+}
+.box{
+
+    -webkit-box-orient: vertical;
+    -webkit-box-pack: center   ;
+    margin-left:30px;
+    margin-right: 30px;
+    margin-top: 20px;
+    border: 3px solid lightseagreen;
+    padding: 10px;
+    border-radius: 25px;
+}
+#style{
+    text-align: center;
+    color:lightseagreen;
+}
+#para{
+    font:italic 20px 'Alegreya Sans SC', sans-serif;
+}
+
+#trip{
+    text-align: center;
+    font: bold 60px 'forta';
+    color: aqua;
+    
+
+}
+
+
+
+
+
+    
+
+
+  
